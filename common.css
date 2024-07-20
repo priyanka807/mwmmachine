@@ -1,0 +1,26 @@
+
+.main_highlight_title{
+    font-size: 2.5rem;
+}
+
+.hightlight_title{
+    font-size: 1.75rem; 
+    text-transform: capitalize !important;
+    text-shadow: 0ch;
+}
+
+.decription{
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.highlight_title_different{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.full_red_border{
+    border: 1px solid red;
+    margin-bottom: 20px;
+    width: 100%;
+}
