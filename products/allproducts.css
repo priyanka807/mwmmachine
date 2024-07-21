@@ -392,3 +392,19 @@ background-color: #333333;
   
   
     /* <!-- footer style end --> */
+
+
+
+
+    .about_container {
+        width: 100%;
+        padding: 20px 60px;
+        margin: 20px 0;
+      }
+      
+      .about-us-title{
+       border-bottom: 5px solid #ec1c24;
+       width: 32%;
+       margin-bottom: 20px;
+       padding-bottom: 5px;
+      }
