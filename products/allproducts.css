@@ -291,6 +291,98 @@ margin-left: 40px !important;
 
 /* product_details_page style start */
 
+ /* contact form style start */
+  
+ .contact_form_container {
+    width: 100%;
+  }
+  
+  .contact_innerpage_content {
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .contact_innerpage_content h2 {
+    font-size: 2rem;
+  
+    text-transform: uppercase;
+  }
+  .contact_form .form-group {
+    margin-bottom: 15px;
+  }
+  .contact_form .form-control {
+    border-radius: 0px !important;
+  }
+  
+  .contact_form label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+     
+      opacity: 0.5 !important;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    
+     opacity: 0.5 !important;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    
+     opacity: 0.5 !important;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      opacity: 0.5 !important;
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+      opacity: 0.5 !important;
+  }
+  
+  ::placeholder { /* Most modern browsers support this now. */
+      opacity: 0.5 !important;
+  }
+  
+  .contact_form .form_submit {
+    outline: 0 !important;
+  
+    padding: 10px;
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #333333;
+    border-color: gray;
+    border: none !important;
+    /* border-color: #2e6da4;
+         
+          border: 1px solid transparent; */
+    border-radius: 4px;
+  }
+  .contact_innerpage_content_right p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  /* .just_airport {
+        font-size: x-small !important;
+      } */
+  .contact_innerpage_content_right i {
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+  }
+  .contact_innerpage_content_right a {
+    outline: 0;
+    text-decoration: none;
+  }
+  .contact_innerpage_content_right a:hover {
+    color: #000 !important;
+  }
+  @media screen and (max-width: 767px) {
+    .contact_form_container {
+      margin: 0px 10px;
+    }
+  }
+  
+  /* contact form style end */
     .main_container {
 width: 100%;
 background-color: #333333;     

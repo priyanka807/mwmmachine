@@ -5,7 +5,7 @@
 
 .hightlight_title{
     font-size: 1.75rem; 
-    text-transform: capitalize !important;
+    text-transform: capitalize ;
     text-shadow: 0ch;
 }
 
@@ -23,4 +23,21 @@
     border: 1px solid red;
     margin-bottom: 20px;
     width: 100%;
+}
+
+/* .title_red_border{
+    border-bottom: 5px solid #ec1c24;
+    width: 15%;
+    margin-bottom: 20px;
+} */
+
+.title{
+    text-align: center;
+}
+
+
+.title_border{
+    border-bottom: 5px solid #ec1c24;
+    margin-bottom: 20px;
+    display: inline-block;
 }
