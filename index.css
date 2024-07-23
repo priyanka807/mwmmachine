@@ -420,6 +420,7 @@
     border: 1px solid #ec1c24;
     margin-right: 25px;
     width: 100%;
+   
 
   }
   .paperbag_details_content .card img {
@@ -482,13 +483,24 @@
     border: 1px solid #ec1c24;
     width: 100px;
   }
+<<<<<<< HEAD
     /* about section end */
+=======
+  
+  /* about section end */
+
+>>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
 
   /* paperbag prodcts style start */
  
   .paperbag_products_container {
     width: 100%;
+<<<<<<< HEAD
     background-color: #f5f5dc !important; 
+=======
+    background-color: #f5f5dc !important;
+   
+>>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
     padding: 30px 60px 20px 60px;
   }
   .paperbag_products_container .title {
@@ -521,6 +533,12 @@
     font-size: small;
     /* border:1px solid black; */
   }
+<<<<<<< HEAD
+=======
+  .paperbag_products_content .paperbag_items div > img:hover {
+    
+  }
+>>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
   
   /* paperbag prodcts style end*/
   
@@ -530,8 +548,12 @@
       margin: 20px 30px;
       height: 450px;
   }
+<<<<<<< HEAD
   /* youtube style end */
  
+=======
+  
+>>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
   
   /* contact form style start */
   .contact_innerpage_container{
