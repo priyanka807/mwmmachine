@@ -9,10 +9,13 @@
     text-shadow: 0ch;
 }
 
-.decription{
+.description{
     font-size: smaller;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 10px 10px 10px 0px;
+    /* margin-bottom: 20px; */
+    /* color: #777; */
 }
 
 .highlight_title_different{
@@ -21,7 +24,8 @@
 }
 
 .full_red_border{
-    border: 1px solid red;
+    border: 2px solid red;
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
 }
@@ -31,14 +35,26 @@
     width: 15%;
     margin-bottom: 20px;
 } */
-
+.little_red_border{
+  width: 50px;  
+  border: 1px solid red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
 .title{
     text-align: center;
 }
 
 
-.title_border{
+/* .title_border{
     border-bottom: 5px solid #ec1c24;
     margin-bottom: 20px;
     display: inline-block;
+} */
+
+.title_border{
+  
+    border-bottom: 2px solid red;    display: inline-block;
+   
 }

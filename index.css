@@ -426,7 +426,7 @@
     /* border: 1px solid gray; */
     /* padding: 40px; */
     width: 100%;
-    height: 250px;
+    height: 350px;
     padding: 10px;
     /* border: 1px solid gray; */
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -458,6 +458,9 @@
   }
   .card-text{
       opacity: .8 !important;
+      font-size: smaller;
+      font-weight: 400;
+      margin-bottom: 20px;
   }
   /* paperbag product details section start */
   
@@ -468,9 +471,7 @@
     margin: 20px 0;
   }
   
-  /* .about-us-title{
-
-  } */
+ 
 
  
   .about_container p {
@@ -481,18 +482,13 @@
     border: 1px solid #ec1c24;
     width: 100px;
   }
-  
-  /* about section end */
+    /* about section end */
+
   /* paperbag prodcts style start */
-  .contact_innerpage_container{
-      margin: 20px 0;
-  }
+ 
   .paperbag_products_container {
     width: 100%;
-    background-color: #f5f5dc !important;
-    /* background-color: #f0f0f0 ; */
-    /* background-color:rgb(245, 245, 220); */
-    /* padding: 40px; */
+    background-color: #f5f5dc !important; 
     padding: 30px 60px 20px 60px;
   }
   .paperbag_products_container .title {
@@ -525,31 +521,22 @@
     font-size: small;
     /* border:1px solid black; */
   }
-  .paperbag_products_content .paperbag_items div > img:hover {
-    /* height: 250px;
-    transition: transform 0.3s ease;  */
-    /* transform: translateY(-20px); */
-  
-    /* background-color:rgb(150, 150, 24); */
-  }
   
   /* paperbag prodcts style end*/
   
-  /* youtube and certificate style start  */
+  /* youtube style start  */
   .youtube{
       padding: 20px 20px;
       margin: 20px 30px;
       height: 450px;
   }
-  /* .youtube_container,
-  .certificate_container {
-    width: 100%;
-    padding: 25px;
-  } */
-  /* contact style end */
+  /* youtube style end */
+ 
   
   /* contact form style start */
-  
+  .contact_innerpage_container{
+    margin: 20px 0;
+}
   .contact_form_container {
     width: 100%;
   }
@@ -608,9 +595,7 @@
     background-color: #333333;
     border-color: gray;
     border: none !important;
-    /* border-color: #2e6da4;
-         
-          border: 1px solid transparent; */
+
     border-radius: 4px;
   }
   .contact_innerpage_content_right p {
@@ -618,9 +603,7 @@
     font-size: 14px;
     text-align: justify;
   }
-  /* .just_airport {
-        font-size: x-small !important;
-      } */
+  
   .contact_innerpage_content_right i {
     font: normal normal normal 14px / 1 FontAwesome;
     font-size: inherit;
@@ -754,10 +737,10 @@
   
 
 
+
+
+
   /* term and conditions style start */
-
-
-
 .termsandcondition_innerpage_content {
     width: 100%;
     padding: 30px 0px;
@@ -808,17 +791,17 @@
       padding: 10px;
     }
 }
+  /* term and conditions style end */
 
 
 
 
-  /* term and conditions style start */
+
+
+
 
 
  /* privacypolicy style start */
-
-
-
  .privacypolicy_innerpage_content {
     width: 100%;
     padding: 30px 0px;
@@ -862,16 +845,23 @@
         margin: 0px 10px }
 }
 
+
 @media screen and (min-width: 768px) {
    
-    .termsandcondition_innerpage_container {
+    .privacypolicy_innerpage_container {
       padding: 10px;
     }
 }
+  /* privacypolicy style end */
 
 
 
 
-  /* term and conditions style start */
 
 
+/* cookie style start */
+.cookie__innerpage_container{
+padding: 20px 60px;
+}
+
+/* cookie style end */
