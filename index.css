@@ -483,24 +483,13 @@
     border: 1px solid #ec1c24;
     width: 100px;
   }
-<<<<<<< HEAD
     /* about section end */
-=======
-  
-  /* about section end */
-
->>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
 
   /* paperbag prodcts style start */
  
   .paperbag_products_container {
     width: 100%;
-<<<<<<< HEAD
     background-color: #f5f5dc !important; 
-=======
-    background-color: #f5f5dc !important;
-   
->>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
     padding: 30px 60px 20px 60px;
   }
   .paperbag_products_container .title {
@@ -533,27 +522,50 @@
     font-size: small;
     /* border:1px solid black; */
   }
-<<<<<<< HEAD
-=======
-  .paperbag_products_content .paperbag_items div > img:hover {
-    
-  }
->>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
   
   /* paperbag prodcts style end*/
-  
+    /* certificate style start  */
+    
+    .certificate_container{
+    width: 100%;  
+  }
+  .certificate_container .row{
+    padding: 0;
+    margin:0 !important;
+
+  }
+  .certificate_container  .certificate_content .card{
+    width: 250px;
+    margin-right: 25px;
+    padding: 10px;
+/* 
+margin-right: 3px;
+margin-bottom: 10px; */
+/* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+/* padding: 10px;
+border: 1px solid red; */
+  }
+  @media screen and (max-width:567px){
+    .certificate_container .certificate_content .card {
+   margin-top: 30px;
+      width: 150px;
+      height: 250px;
+    }
+   /* h2{
+    margin-bottom: 0px !important;
+   }  */
+  }
+
+  /* certificate style end */
+ 
   /* youtube style start  */
   .youtube{
       padding: 20px 20px;
       margin: 20px 30px;
       height: 450px;
   }
-<<<<<<< HEAD
   /* youtube style end */
  
-=======
-  
->>>>>>> 65142c0e600da5af1ee7ad1a7de04bec692dcd99
   
   /* contact form style start */
   .contact_innerpage_container{
@@ -578,7 +590,9 @@
   .contact_form .form-control {
     border-radius: 0px !important;
   }
-  
+  .modal-body{
+    padding: 0px 20px 20px 20px !important;
+  }
   .contact_form label {
     display: inline-block;
     max-width: 100%;
@@ -610,11 +624,11 @@
   
   .contact_form .form_submit {
     outline: 0 !important;
-  
+  margin-top: 10px;
     padding: 10px;
     font-weight: 700;
     color: #fff !important;
-    background-color: #333333;
+    background-color: red;
     border-color: gray;
     border: none !important;
 

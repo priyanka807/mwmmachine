@@ -291,9 +291,11 @@ margin-left: 40px !important;
 
 /* product_details_page style start */
 
- /* contact form style start */
-  
- .contact_form_container {
+   /* contact form style start */
+   .contact_innerpage_container{
+    margin: 20px 0;
+}
+  .contact_form_container {
     width: 100%;
   }
   
@@ -312,7 +314,9 @@ margin-left: 40px !important;
   .contact_form .form-control {
     border-radius: 0px !important;
   }
-  
+  .modal-body{
+    padding: 0px 20px 20px 20px !important;
+  }
   .contact_form label {
     display: inline-block;
     max-width: 100%;
@@ -344,16 +348,14 @@ margin-left: 40px !important;
   
   .contact_form .form_submit {
     outline: 0 !important;
-  
+  margin-top: 10px;
     padding: 10px;
     font-weight: 700;
     color: #fff !important;
-    background-color: #333333;
+    background-color: red;
     border-color: gray;
     border: none !important;
-    /* border-color: #2e6da4;
-         
-          border: 1px solid transparent; */
+
     border-radius: 4px;
   }
   .contact_innerpage_content_right p {
@@ -361,9 +363,7 @@ margin-left: 40px !important;
     font-size: 14px;
     text-align: justify;
   }
-  /* .just_airport {
-        font-size: x-small !important;
-      } */
+  
   .contact_innerpage_content_right i {
     font: normal normal normal 14px / 1 FontAwesome;
     font-size: inherit;
@@ -383,6 +383,7 @@ margin-left: 40px !important;
   }
   
   /* contact form style end */
+  
     .main_container {
 width: 100%;
 background-color: #333333;     
